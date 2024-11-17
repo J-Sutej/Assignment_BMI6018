@@ -4316,3 +4316,217 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 2024-11-16 22:27:06,670:INFO:Rendering Visual
 2024-11-16 22:27:07,628:INFO:Visual Rendered Successfully
 2024-11-16 22:27:07,888:INFO:plot_model() successfully completed......................................
+2024-11-16 22:31:07,636:WARNING:C:\Users\Victus\AppData\Local\Temp\ipykernel_22844\1932902166.py:11: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-11-16 22:31:07,643:WARNING:C:\Users\Victus\AppData\Local\Temp\ipykernel_22844\1932902166.py:12: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-11-16 22:31:07,648:WARNING:C:\Users\Victus\AppData\Local\Temp\ipykernel_22844\1932902166.py:13: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-11-16 22:31:07,655:INFO:PyCaret ClusteringExperiment
+2024-11-16 22:31:07,655:INFO:Logging name: cluster-default-name
+2024-11-16 22:31:07,655:INFO:ML Usecase: MLUsecase.CLUSTERING
+2024-11-16 22:31:07,656:INFO:version 3.3.2
+2024-11-16 22:31:07,656:INFO:Initializing setup()
+2024-11-16 22:31:07,656:INFO:self.USI: 306c
+2024-11-16 22:31:07,656:INFO:self._variable_keys: {'pipeline', '_ml_usecase', 'USI', 'gpu_param', 'n_jobs_param', 'gpu_n_jobs_param', 'exp_name_log', 'exp_id', 'html_param', 'seed', 'logging_param', 'data', 'memory', 'X', 'idx', '_available_plots', 'log_plots_param'}
+2024-11-16 22:31:07,656:INFO:Checking environment
+2024-11-16 22:31:07,656:INFO:python_version: 3.11.9
+2024-11-16 22:31:07,656:INFO:python_build: ('tags/v3.11.9:de54cf5', 'Apr  2 2024 10:12:12')
+2024-11-16 22:31:07,656:INFO:machine: AMD64
+2024-11-16 22:31:07,656:INFO:platform: Windows-10-10.0.22631-SP0
+2024-11-16 22:31:07,660:INFO:Memory: svmem(total=16390533120, available=8253087744, percent=49.6, used=8137445376, free=8253087744)
+2024-11-16 22:31:07,660:INFO:Physical Core: 8
+2024-11-16 22:31:07,660:INFO:Logical Core: 16
+2024-11-16 22:31:07,660:INFO:Checking libraries
+2024-11-16 22:31:07,660:INFO:System:
+2024-11-16 22:31:07,660:INFO:    python: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+2024-11-16 22:31:07,660:INFO:executable: c:\Python311\python.exe
+2024-11-16 22:31:07,660:INFO:   machine: Windows-10-10.0.22631-SP0
+2024-11-16 22:31:07,660:INFO:PyCaret required dependencies:
+2024-11-16 22:31:07,661:INFO:                 pip: 24.3.1
+2024-11-16 22:31:07,661:INFO:          setuptools: 65.5.0
+2024-11-16 22:31:07,661:INFO:             pycaret: 3.3.2
+2024-11-16 22:31:07,661:INFO:             IPython: 8.26.0
+2024-11-16 22:31:07,661:INFO:          ipywidgets: 8.1.3
+2024-11-16 22:31:07,661:INFO:                tqdm: 4.67.0
+2024-11-16 22:31:07,661:INFO:               numpy: 1.26.4
+2024-11-16 22:31:07,661:INFO:              pandas: 2.1.4
+2024-11-16 22:31:07,661:INFO:              jinja2: 3.1.4
+2024-11-16 22:31:07,661:INFO:               scipy: 1.11.4
+2024-11-16 22:31:07,661:INFO:              joblib: 1.3.2
+2024-11-16 22:31:07,661:INFO:             sklearn: 1.4.2
+2024-11-16 22:31:07,661:INFO:                pyod: 2.0.2
+2024-11-16 22:31:07,661:INFO:            imblearn: 0.12.4
+2024-11-16 22:31:07,661:INFO:   category_encoders: 2.6.4
+2024-11-16 22:31:07,661:INFO:            lightgbm: 4.5.0
+2024-11-16 22:31:07,661:INFO:               numba: 0.60.0
+2024-11-16 22:31:07,661:INFO:            requests: 2.32.3
+2024-11-16 22:31:07,661:INFO:          matplotlib: 3.7.5
+2024-11-16 22:31:07,661:INFO:          scikitplot: 0.3.7
+2024-11-16 22:31:07,661:INFO:         yellowbrick: 1.5
+2024-11-16 22:31:07,661:INFO:              plotly: 5.24.1
+2024-11-16 22:31:07,661:INFO:    plotly-resampler: Not installed
+2024-11-16 22:31:07,661:INFO:             kaleido: 0.4.1
+2024-11-16 22:31:07,661:INFO:           schemdraw: 0.15
+2024-11-16 22:31:07,661:INFO:         statsmodels: 0.14.4
+2024-11-16 22:31:07,661:INFO:              sktime: 0.26.0
+2024-11-16 22:31:07,661:INFO:               tbats: 1.1.3
+2024-11-16 22:31:07,661:INFO:            pmdarima: 2.0.4
+2024-11-16 22:31:07,661:INFO:              psutil: 6.0.0
+2024-11-16 22:31:07,661:INFO:          markupsafe: 2.1.5
+2024-11-16 22:31:07,661:INFO:             pickle5: Not installed
+2024-11-16 22:31:07,661:INFO:         cloudpickle: 3.1.0
+2024-11-16 22:31:07,661:INFO:         deprecation: 2.1.0
+2024-11-16 22:31:07,661:INFO:              xxhash: 3.5.0
+2024-11-16 22:31:07,661:INFO:           wurlitzer: Not installed
+2024-11-16 22:31:07,661:INFO:PyCaret optional dependencies:
+2024-11-16 22:31:07,662:INFO:                shap: 0.44.1
+2024-11-16 22:31:07,662:INFO:           interpret: 0.6.5
+2024-11-16 22:31:07,662:INFO:                umap: 0.5.7
+2024-11-16 22:31:07,662:INFO:     ydata_profiling: 4.12.0
+2024-11-16 22:31:07,662:INFO:  explainerdashboard: 0.4.7
+2024-11-16 22:31:07,662:INFO:             autoviz: Not installed
+2024-11-16 22:31:07,662:INFO:           fairlearn: 0.7.0
+2024-11-16 22:31:07,662:INFO:          deepchecks: Not installed
+2024-11-16 22:31:07,662:INFO:             xgboost: Not installed
+2024-11-16 22:31:07,662:INFO:            catboost: 1.2.7
+2024-11-16 22:31:07,662:INFO:              kmodes: 0.12.2
+2024-11-16 22:31:07,662:INFO:             mlxtend: 0.23.3
+2024-11-16 22:31:07,662:INFO:       statsforecast: 1.5.0
+2024-11-16 22:31:07,662:INFO:        tune_sklearn: Not installed
+2024-11-16 22:31:07,662:INFO:                 ray: Not installed
+2024-11-16 22:31:07,662:INFO:            hyperopt: 0.2.7
+2024-11-16 22:31:07,662:INFO:              optuna: 4.1.0
+2024-11-16 22:31:07,662:INFO:               skopt: 0.10.2
+2024-11-16 22:31:07,662:INFO:              mlflow: 2.17.2
+2024-11-16 22:31:07,662:INFO:              gradio: 5.6.0
+2024-11-16 22:31:07,662:INFO:             fastapi: 0.115.5
+2024-11-16 22:31:07,662:INFO:             uvicorn: 0.32.0
+2024-11-16 22:31:07,662:INFO:              m2cgen: 0.10.0
+2024-11-16 22:31:07,662:INFO:           evidently: 0.4.39
+2024-11-16 22:31:07,662:INFO:               fugue: 0.8.7
+2024-11-16 22:31:07,662:INFO:           streamlit: 1.40.1
+2024-11-16 22:31:07,662:INFO:             prophet: Not installed
+2024-11-16 22:31:07,662:INFO:None
+2024-11-16 22:31:07,662:INFO:Set up data.
+2024-11-16 22:31:07,697:INFO:Set up index.
+2024-11-16 22:31:07,697:INFO:Assigning column types.
+2024-11-16 22:31:07,699:INFO:Engine successfully changes for model 'kmeans' to 'sklearn'.
+2024-11-16 22:31:07,700:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2024-11-16 22:31:07,700:INFO:Soft dependency imported: kmodes: 0.12.2
+2024-11-16 22:31:07,700:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2024-11-16 22:31:07,700:INFO:Soft dependency imported: kmodes: 0.12.2
+2024-11-16 22:31:07,700:INFO:Engine successfully changes for model 'dbscan' to 'sklearn'.
+2024-11-16 22:31:07,700:INFO:Soft dependency imported: kmodes: 0.12.2
+2024-11-16 22:31:07,700:INFO:Soft dependency imported: kmodes: 0.12.2
+2024-11-16 22:31:07,701:INFO:Preparing preprocessing pipeline...
+2024-11-16 22:31:07,701:INFO:Set up simple imputation.
+2024-11-16 22:31:07,705:INFO:Set up encoding of categorical features.
+2024-11-16 22:31:07,705:INFO:Set up feature normalization.
+2024-11-16 22:31:09,387:INFO:Finished creating preprocessing pipeline.
+2024-11-16 22:31:09,393:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\Victus\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=[], transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['race', 'diag_1', 'diag_2',
+                                             'diag_3'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['race', 'diag_1', 'diag_2',
+                                             'diag_3'],
+                                    transformer=OneHotEncoder(cols=['race',
+                                                                    'diag_1',
+                                                                    'diag_2',
+                                                                    'diag_3'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize',
+                 TransformerWrapper(transformer=StandardScaler()))])
+2024-11-16 22:31:09,393:INFO:Creating final display dataframe.
+2024-11-16 22:31:10,484:INFO:Setup _display_container:                  Description                 Value
+0                 Session id                   123
+1        Original data shape           (101766, 4)
+2     Transformed data shape        (101766, 2259)
+3       Categorical features                     4
+4   Rows with missing values                  1.5%
+5                 Preprocess                  True
+6            Imputation type                simple
+7         Numeric imputation                  mean
+8     Categorical imputation                  mode
+9   Maximum one-hot encoding                    -1
+10           Encoding method                  None
+11                 Normalize                  True
+12          Normalize method                zscore
+13                  CPU Jobs                    -1
+14                   Use GPU                 False
+15            Log Experiment                 False
+16           Experiment Name  cluster-default-name
+17                       USI                  306c
+2024-11-16 22:31:10,490:INFO:Soft dependency imported: kmodes: 0.12.2
+2024-11-16 22:31:10,490:INFO:Soft dependency imported: kmodes: 0.12.2
+2024-11-16 22:31:10,491:INFO:setup() successfully completed in 2.84s...............
+2024-11-16 22:31:10,517:INFO:Initializing create_model()
+2024-11-16 22:31:10,517:INFO:create_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000026132573150>, estimator=kmeans, num_clusters=4, fraction=0.05, ground_truth=None, round=4, fit_kwargs=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, display=None, kwargs={})
+2024-11-16 22:31:10,517:INFO:Checking exceptions
+2024-11-16 22:31:11,362:INFO:Importing untrained model
+2024-11-16 22:31:11,364:INFO:K-Means Clustering Imported successfully
+2024-11-16 22:31:11,396:INFO:Fitting Model
+2024-11-16 22:36:04,050:INFO:KMeans(n_clusters=4, random_state=123)
+2024-11-16 22:36:04,052:INFO:create_models() successfully completed......................................
+2024-11-16 22:36:04,061:INFO:Uploading results into container
+2024-11-16 22:36:04,072:INFO:Uploading model into container now
+2024-11-16 22:36:04,092:INFO:_master_model_container: 1
+2024-11-16 22:36:04,093:INFO:_display_container: 2
+2024-11-16 22:36:04,093:INFO:KMeans(n_clusters=4, random_state=123)
+2024-11-16 22:36:04,093:INFO:create_model() successfully completed......................................
+2024-11-16 22:36:04,549:INFO:Initializing assign_model()
+2024-11-16 22:36:04,549:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000026132573150>, model=KMeans(n_clusters=4, random_state=123), transformation=False, score=True, verbose=True)
+2024-11-16 22:36:04,549:INFO:Checking exceptions
+2024-11-16 22:36:04,549:INFO:Determining Trained Model
+2024-11-16 22:36:04,549:INFO:Trained Model : K-Means Clustering
+2024-11-16 22:36:04,549:INFO:Copying data
+2024-11-16 22:36:04,581:INFO:(101766, 5)
+2024-11-16 22:36:04,581:INFO:assign_model() successfully completed......................................
+2024-11-16 22:36:04,611:INFO:Initializing plot_model()
+2024-11-16 22:36:04,611:INFO:plot_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000026132573150>, estimator=KMeans(n_clusters=4, random_state=123), plot=cluster, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-11-16 22:36:04,611:INFO:Checking exceptions
+2024-11-16 22:36:04,615:INFO:Preloading libraries
+2024-11-16 22:36:04,616:INFO:Copying training dataset
+2024-11-16 22:36:04,617:INFO:Plot type: cluster
+2024-11-16 22:36:04,617:INFO:SubProcess assign_model() called ==================================
+2024-11-16 22:36:04,617:INFO:Initializing assign_model()
+2024-11-16 22:36:04,617:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000026132573150>, model=KMeans(n_clusters=4, random_state=123), transformation=True, score=True, verbose=False)
+2024-11-16 22:36:04,618:INFO:Checking exceptions
+2024-11-16 22:36:04,618:INFO:Determining Trained Model
+2024-11-16 22:36:04,618:INFO:Trained Model : K-Means Clustering
+2024-11-16 22:36:04,618:INFO:Copying data
+2024-11-16 22:36:06,007:INFO:Transformation parameter set to True. Assigned clusters are attached on transformed dataset.
+2024-11-16 22:36:06,036:INFO:(101766, 2260)
+2024-11-16 22:36:06,036:INFO:assign_model() successfully completed......................................
+2024-11-16 22:36:06,301:INFO:SubProcess assign_model() end ==================================
+2024-11-16 22:36:07,279:INFO:Fitting PCA()
+2024-11-16 22:36:10,824:INFO:Sorting dataframe
+2024-11-16 22:36:10,863:INFO:Rendering Visual
+2024-11-16 22:36:11,757:INFO:Visual Rendered Successfully
+2024-11-16 22:36:12,024:INFO:plot_model() successfully completed......................................
